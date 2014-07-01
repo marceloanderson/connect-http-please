@@ -1,18 +1,16 @@
 {
   "name": "connect-http-please",
   "description": "Follow redirects to https transparently and deliver them via http",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/gadr/connect-http-please.git"
   },
-  "main": "index.coffee",
   "engines": {
     "node": "0.10.x",
     "npm": "1.2.x"
   },
   "scripts": {
-    "start": "coffee index.coffee",
     "test": "mocha --compilers coffee:coffee-script/register --reporter spec specs/**",
     "test-watch": "mocha --watch --compilers coffee:coffee-script/register --reporter spec specs/**"
   },
